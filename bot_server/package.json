@@ -1,0 +1,23 @@
+{
+  "name": "bot_server",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "app-root-path": "*",
+    "body-parser": "*",
+    "cookie-parser": "*",
+    "debug": "*",
+    "express": "*",
+    "i2c-bus": "*",
+    "jade": "*",
+    "morgan": "*",
+    "pca9685": "*",
+    "pug": "^2.0.3",
+    "raspi": "*",
+    "raspi-gpio": "*",
+    "serve-favicon": "*"
+  }
+}
